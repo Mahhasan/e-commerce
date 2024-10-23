@@ -1,0 +1,4 @@
+[24-Apr-2024 08:54:36 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/karupall/public_html/vendor/composer/platform_check.php on line 28
+[24-Apr-2024 08:54:36 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/karupall/public_html/vendor/composer/platform_check.php on line 28
+[01-Jun-2024 12:33:01 Asia/Dhaka] PHP Fatal error:  Cannot redeclare App\Http\Controllers\PosController::__construct() in /home/karupall/public_html/app/Http/Controllers/PosController.php on line 285
+[06-Oct-2024 20:40:08 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Customer as Customer because the name is already in use in /home/karupall/public_html/app/Http/Controllers/ReportController.php on line 19

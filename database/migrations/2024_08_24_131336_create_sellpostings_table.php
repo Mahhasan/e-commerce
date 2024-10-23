@@ -1,0 +1,34 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::create('sellpostings', function (Blueprint $table) {
+            $table->id();
+            $table->float('totalamount');
+            $table->float('cardamount');
+            $table->float('cashamount');
+            $table->float('vat');
+            $table->integer('totalproduct');
+            $table->float('totaldiscount');
+            $table->date('sale_date');
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('sellpostings');
+    }
+};
